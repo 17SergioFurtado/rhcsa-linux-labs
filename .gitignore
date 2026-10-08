@@ -1,0 +1,29 @@
+# Virtual machines
+*.vdi
+*.vmdk
+*.vbox
+*.ova
+*.qcow2
+
+# SSH private keys
+id_rsa
+id_ed25519
+*.pem
+*.key
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.secret
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
